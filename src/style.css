@@ -1,0 +1,17 @@
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    app-invoice, app-invoice * {
+      visibility: visible;
+    }
+    app-invoice {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+    .no-print {
+      display: none !important;
+    }
+  }
